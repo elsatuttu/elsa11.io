@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REgistraion Form</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="register.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 offset-md-4 form-div">
+                    <form id="form-register">
+                        <h1 class="text-center">REGISTER</h1><!--heading register-->
+                        <div class="form-group">
+                            <label for="UserName">ACCOUNT NUMBER</label><!--user account no-->
+                            <input type="text" name="UserName"
+                            class="form control form-control-lg"
+                            placeholder="enter the username"required="required"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">PIN</label><!--user pin-->
+                            <input type="email" name="email"
+                            class="form control form-control-lg"
+                            placeholder="enter the email"required="required"/>
+                        </div>
+                        <div class="form-group">
+                                <label for="password">Password</label><!--user password-->
+                                <input type="password" name="UserName"
+                                class="form control form-control-lg"
+                                placeholder="enter the password"required="required"/>
+                        </div>
+                        <div class="form-group">
+                                <label for="confirmpass"> Confirm Password</label><!--user confirm password-->
+                                <input type="password" name="UserName"
+                                class="form control form-control-lg"
+                                placeholder="confirm the password"required="required"/>
+                        </div>    
+                        <div class="form-group">
+                                <input type="Submit" name="Submit" form="form-register" value="Sign Up" class="btn
+                                btn-primary btn-block"/><!--user sign up-->
+                        </div>  
+                            <p class="text-center">
+                                Already Registered?
+                                <a href="#">Sign in</a><!--sign in if already registered-->
+                            </p>  
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+    </body>
+</html>

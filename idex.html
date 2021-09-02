@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <title>Login And Registration Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="./style.css"
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <script src="transaction.js"></script>
+  </head>
+  <body>
+      <section class="Login py-5 bg-light">
+          <div class="container">
+              <div class="row g-0">
+                    <div class="col-lg-5">
+                      <img src="image.jpg"class"img-fluid" alt=""><!--this is login image-->
+                    </div>
+                        <div class="col-lg-7 text-center py-5">
+                            <h1>WELCOME TO PERFECT BANKING</h1><!--heading end-->
+                            <form>
+                                <div class="form-row py-2 pt-3">
+                                    <div class="col-lg-10">
+                                        <input type="text" class ="inp px-3"placeholder="ACCOUNT NUMBER" id="acno"><!-- user account number-->
+                                    </div>
+                                </div>
+                                 <div class="form-row py-2 pt-3">
+                                    <div class="col-lg-10">
+                                        <input type="Password" class ="inp px-3"placeholder="Password" id="pwd"><!--user password-->
+                                    </div>
+                                </div>
+                                    <div class="form-row py 3">
+                                        <div class="col-lg-10">
+                                            <button onclick="Bank.login()" type="button" class="btn1">SignUp</button><!--sign up button-->
+                                        </div>
+                                        <p>iam new here? <a href="register.html">REGISTER</a></p><!--registration button-->
+                                    </div>
+                            </form>
+                        </div>
+              </div>
+          </div>
+      </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
